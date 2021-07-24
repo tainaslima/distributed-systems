@@ -6,7 +6,7 @@ The program for this class consisted of weekly exercises to practice what were l
 
 ## Organization
 - ```\exercises``` contains the solutions made by me
-- ```\final-work```contains all the files related with the final work scheduled for this class, including the report and codes
+- ```\works```contains all the files related with the final work scheduled for this class, including the report and codes
 
 ## Built with
 - Python 3.x + libraries
