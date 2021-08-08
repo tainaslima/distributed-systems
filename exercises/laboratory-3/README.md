@@ -13,7 +13,7 @@
 - ```\database``` is a folder which contains the files which the server can access
 
 ## How to run
-First, you must have at least 2 terminals open: one to run the server and the other, the client. After opening them, run the file ```server.py``` first in one terminal and then run ```client.py``` in the other. 
+First, you must have at least 2 terminals open: one to run the server and the other, the client. After opening them, run the file ```server.py``` first in one terminal and then run ```client.py``` in the other. \n
 In the client's side, the app will show a menu asking what action do you want to take, type 1 if you want to search for a word in a file. The app will ask for the filename (IMPORTANT: YOU MUST TYPE THE FILENAME WITH ITS EXTENSION!) and the word to be searched.
 If this file exists in the database, the server will inform the client that the file exist and the word's counting in that file. This information will be printed to user and the app will ask what does the user want to do again, until the user types 0 to end the app.
 
