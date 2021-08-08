@@ -10,10 +10,10 @@
     - Process layer: Encode/decode messages
     - Interface layer: Convert the result messages in more readable messages for user and deal with all interactions between user and the app
 - ```messageProtocol.py``` contains methods related to the messages convertion protocol (encode and decode message, interpret message, etc)
-- ```\database``` is a folder which contains the files which the server can access
+- ```\database``` is a folder with the files which the server can access
 
 ## How to run
-First, you must have at least 2 terminals open: one to run the server and the other, the client. After opening them, run the file ```server.py``` first in one terminal and then run ```client.py``` in the other. <br>
+First, you must have at least 2 terminals open: one to run the server and the other, the client. After opening them, run the file ```server.py``` first in one terminal and then run ```client.py``` in the other. <br><br>
 In the client's side, the app will show a menu asking what action do you want to take, type 1 if you want to search for a word in a file. The app will ask for the filename (IMPORTANT: YOU MUST TYPE THE FILENAME WITH ITS EXTENSION!) and the word to be searched.
 If this file exists in the database, the server will inform the client that the file exist and the word's counting in that file. This information will be printed to user and the app will ask what does the user want to do again, until the user types 0 to end the app.
 
@@ -24,7 +24,7 @@ In the server's side, if you want to execute some "adm" commands, you can just t
 
 
 ## Built with
-- Python 3.x + libraries
+- Python 3.8 + libraries
 - Visual Studio Code
 - Windows 10
 
